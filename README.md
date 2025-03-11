@@ -1,1 +1,5 @@
 # NLP_Final_Project
+
+Original data including all of the translational cycles and the respective detection scores are saved in csv files in the /Data directory with the file nameing practice of (*language*-*mg/hg*-*cycle*-*detection*)
+
+There were three notebooks used for coding during this project which can be found in the /Notebooks directory. The first is translate_cycles which was used to impletemnt the translational models and translate all of the original data to each of the target languages and back. I attempted to use functions here to abstract as much of the looping as possible. The second notebook is detect_mg which is where the implementation of the detection API calls was written, again in this file I was able to utilize function abstraction, only needing to change the input data and outfile as I passed the translations to the detector and accepted the outputs. The last file, data_manipulation, is where I looked at the detection and translational data after I created it. This is where I looked for trends in my data and eventually setteld on the two graphs shown in the final report to best represent the results of the experiment.
